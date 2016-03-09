@@ -344,12 +344,13 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 
 创建一个有序列表，内容是三个cat讨厌的东西:
 
+```
 <ol>
   <li>boy</li>
   <li>gays</li>
   <li>html</li>  
 </ol>
-
+```
 ### 28. Create a Text Field
 
 创建一个文本字段：
