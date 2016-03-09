@@ -26,19 +26,25 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 ## HTML5 and CSS
 
 1. Say Hello to HTML Elements 
+
 ```
 
 <h1>Hello</h1>
 ```
 2. Headline with the h2 Element 
+
 添加一个h2元素：
+
 ```
 
 <h1>Hello World</h1>
 <h2>CatPhotoApp</h2>
+
 ```
 3. Inform with the Paragraph Element
+
 添加一个p元素：
+
 ```
 
 <h1>Hello World</h1>
@@ -46,7 +52,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 <p>Hello Paragraph</p>
 ```
 4. Uncomment HTML 
+
 取消注释：
+
 ```
 
 <!--
@@ -60,7 +68,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 	去掉`<!--`和`-->`即可。
 
 5. Comment out HTML 
+
 注释h1和p：
+
 ```
 
 <!--
@@ -72,13 +82,17 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 -->
 ```
 6. Fill in the Blank with Placeholder Text
+
 把那段红色段落复制粘贴到p元素：
+
 ```
 
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
 7. Delete HTML Elements 
+
 删除h1元素：
+
 ```
 
 <h2>CatPhotoApp</h2>
@@ -86,14 +100,18 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
 8. Change the Color of Text 
+
 啊哈，进入CSS的部分了==
 给h2上红色：
+
 ```
 
 <h2 style="color: red">CatPhotoApp</h2>
 ```
 9. Use CSS Selectors to Style Elements
+
 这里删掉h2元素里的style，创建style元素，并为h2设置color属性为blue(然而例子中给的是red，还要自己修改一下- -！)
+
 ```
 <style>
   h2 {color:blue;}
@@ -101,7 +119,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 <h2>CatPhotoApp</h2>
 ```
 10.	Use a CSS Class to Style an Element
+
 给h2加个class属性，在style元素里吧h2换成.red-text，blue换成red：
+
 ```
 <style>
   .red-text {
@@ -112,7 +132,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 <h2 class="red-text">CatPhotoApp</h2>`
 ```
 11. Style Multiple Elements with a CSS Class 
+
 给`<p>`加一个red-text的class属性
+
 ```
 <style>
   .red-text {
@@ -123,7 +145,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 
 ```
 12. Change the Font Size of an Element 
+
 设置字体大小font-size，没啥好说的
+
 ```
 <style>
   p {
@@ -135,7 +159,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 <p class="red-text">Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
 ```
 13. Set the Font Family of an Element 
+
 设置字体font-family：
+
 ```
 <style>
 
@@ -148,7 +174,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
 ```
 14. Import a Google Font 
+
 设置Lobster字体
+
 ```
 <link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
 <style>
@@ -161,7 +189,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 
 ```
 15. Specify How Fonts Should Degrade 
+
 设置字体降级,注释掉Google字体的请求，观察变化
+
 ```
 <!--<link href="http://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">-->
 <style>
@@ -177,14 +207,18 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 ```
 
 16. Add Images to your Website 
+
 添加图片：
+
 ```
 
 <img src="https://bit.ly/fcc-relaxing-cat">
 
 ```
 17. Size your Images
+
 设置图片大小：
+
 ```
 
 <style> 
@@ -199,7 +233,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 ```
 
 18. Add Borders Around your Elements 
+
 添加边线：
+
 ```
 
 <style>
@@ -217,7 +253,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 
 ```
 19. Add Rounded Corners with a Border Radius
+
 添加圆角border-radius：
+
 ```
 <style>
   .thick-green-border {
@@ -236,7 +274,9 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 ```
 
 20. Make Circular Images with a Border Radius
+
 制作圆形图片：
+
 ```
 
 <style>
@@ -254,27 +294,37 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 
 ```
 21. Link to External Pages with Anchor Elements
+
 设置链接：
+
 ```
 <a href="http://freecatphotoapp.com">cat photos</a>
 ```
 22. Nest an Anchor Element within a Paragraph
+
 使用嵌套：
+
 ```
 <p>View more <a href="http://www.freecatphotoapp.com">cat photos</a></p>
 ```
 23. Make Dead Links using the Hash Symbol
+
 死链接：
+
 ```
 <p>Click here for <a href="#">cat photos</a>.</p>
 ```
 24. Turn an Image into a Link
+
 把图片变成链接：
+
 ```
 <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat"></a>
 ```
 25. Add Alt Text to an Image for Accessibility
+
 给图片添加alt属性：
+
 ```
 <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back"></a>
 ```
