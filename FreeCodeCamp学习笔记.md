@@ -25,13 +25,13 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 
 ## HTML5 and CSS
 
-1. Say Hello to HTML Elements 
+### 1. Say Hello to HTML Elements 
 
 ```
 
 <h1>Hello</h1>
 ```
-2. Headline with the h2 Element 
+### 2. Headline with the h2 Element 
 
 添加一个h2元素：
 
@@ -41,7 +41,7 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 <h2>CatPhotoApp</h2>
 
 ```
-3. Inform with the Paragraph Element
+### 3. Inform with the Paragraph Element
 
 添加一个p元素：
 
