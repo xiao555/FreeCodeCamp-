@@ -329,3 +329,50 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 <a href="#"><img class="smaller-image thick-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back"></a>
 ```
 ### 26. Create a Bulleted Unordered List
+
+创建子弹无序列表(中文是这样吗？好吧是项目符号无序列表),删除两个`<p>`，列表是三个cat喜欢的东西。
+
+```
+<ul>
+  <li>milk</li>
+  <li>cheese</li>
+  <li>girl</li>
+</ul>
+```
+
+### 27. Create an Ordered List
+
+创建一个有序列表，内容是三个cat讨厌的东西:
+
+<ol>
+  <li>boy</li>
+  <li>gays</li>
+  <li>html</li>  
+</ol>
+
+### 28. Create a Text Field
+
+创建一个文本字段：
+
+```
+<input type="text">
+```
+
+### 29. Add Placeholder Text to a Text Field
+
+添加占位文本到一个文本字段:
+
+```
+<input type="text" placeholder="cat photo URL">
+```
+
+### 30. Create a Form Element
+
+创建一个表单元素,嵌套input元素:
+
+```
+<form action="/submit-cat-photo"><input type="text" placeholder="cat photo URL"></form>
+```
+
+### 31. Add a Submit Button to a Form
+
