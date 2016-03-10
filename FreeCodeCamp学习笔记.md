@@ -377,3 +377,138 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 
 ### 31. Add a Submit Button to a Form
 
+为表单添加提交按钮：
+
+```
+<form action="/submit-cat-photo">
+  <input type="text" placeholder="cat photo URL">
+  <button type="submit">Submit</button>
+</form>
+```
+### 32. Use HTML5 to Require a Field
+
+使用HTML5需要一个字段(required):
+
+```
+<form action="/submit-cat-photo">
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+</form>
+```
+### 33. Create a Set of Radio Buttons
+
+设置单选框：
+
+```
+<label><input type="radio" name="indoor-outdoor"> indoor</label></br>
+<label><input type="radio" name="indoor-outdoor"> outdoor</label>
+```
+### 34. Create a Set of Checkboxes
+
+设置复选框：
+
+```
+<form action="/submit-cat-photo">
+  <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <input type="text" placeholder="cat photo URL" required>
+  <button type="submit">Submit</button>
+  <label><input type="checkbox" name="personality"> Loving</label>
+  <label><input type="checkbox" name="personality"> Loving</label>
+  <label><input type="checkbox" name="personality"> Loving</label>
+</form>
+```
+### 35. Check Radio Buttons and Checkboxes by Default
+
+检查默认单选按钮和复选框(第一个单选和复选添加checked):
+
+```
+<label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+  <label><input type="radio" name="indoor-outdoor"> Outdoor</label>
+  <label><input type="checkbox" name="personality" checked> Loving</label>
+```
+
+### 36. Nest Many Elements within a Single Div Element
+
+用简单的div元素嵌套一些元素：
+
+```
+<div>
+<p>Things cats love:</p>
+<ul>
+  <li>cat nip</li>
+  <li>laser pointers</li>
+  <li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+  <li>flea treatment</li>
+  <li>thunder</li>
+  <li>other cats</li>
+</ol>
+</div>
+```
+
+### 37. Give a Background Color to a Div Element
+
+为div元素设置背景色：
+
+```
+.gray-background{
+    background-color:gray;
+  }
+
+<div class="gray-background">
+```
+
+### 38. Set the ID of an Element
+
+为元素设置id：
+
+```
+<form id="cat-photo-form" action="/submit-cat-photo">
+```
+
+### 39. Use an ID Attribute to Style an Element
+
+使用ID属性设计元素：
+
+```
+#cat-photo-form {
+    background-color:green;
+  }
+```
+### 40. Adjusting the Padding of an Element
+
+设置内边距：
+
+```
+.green-box {
+    background-color: green;
+    padding: 20px;
+  }
+```
+### 41. Adjust the Margin of an Element
+
+设置内边距：
+
+```
+.green-box {
+    background-color: green;
+    padding: 20px;
+    margin: 20px;
+  }
+```
+### 43. Add a Negative Margin to an Element
+
+设置负的外边距：
+
+```
+.green-box {
+    background-color: green;
+    padding: 20px;
+    margin: -15px;
+  }
+```
+
+### 44. 
