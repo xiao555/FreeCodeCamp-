@@ -511,4 +511,120 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
   }
 ```
 
-### 44. 
+### 44. Add Different Padding to Each Side of an Element
+为元素的每一边添加不同的内边距：
+
+```
+.green-box {
+    background-color: green;
+    padding-top: 40px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+  }
+```
+
+### 45. Add Different Margins to Each Side of an Element
+
+为元素的每一边添加不同的外边距：
+
+```
+.green-box {
+    background-color: green;
+    margin-top: 40px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+  }
+```
+
+### 46. Use Clockwise Notation to Specify the Padding of an Element
+
+用顺时针符号来指定一个元素的内  边距：
+
+```
+.green-box {
+    background-color: green;
+    padding: 40px 20px 20px 40px;
+  }
+```
+
+### 47. Use Clockwise Notation to Specify the Margin of an Element
+
+用顺时针符号来指定一个元素的外边距：
+
+```
+.green-box {
+    background-color: green;
+    margin: 40px 20px 20px 40px;
+  }
+```
+
+### 48. Style the HTML Body Element
+
+设计html body元素的样式：
+
+```
+<style>
+body {
+  background-color: black;
+}
+</style>
+```
+
+### 49. Inherit Styles from the Body Element
+
+从body元素继承样式：
+
+```
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: Monospace;
+  }
+
+</style>
+<h1>Hello World</h1>
+```
+
+### 50. Prioritize One Style Over Another
+
+优先考虑一个样式：
+
+```
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text{
+    color:pink;
+  }
+</style>
+<h1 class="pink-text">Hello World!</h1>
+
+```
+
+### 51. Override Styles in Subsequent CSS
+
+在后来的CSS中覆盖样式,注释中的样式跟未注释的一样：
+
+```
+<style>
+  body {
+    background-color: black;
+    font-family: Monospace;
+    color: green;
+  }
+  .pink-text {
+    color: pink;
+  }
+  .blue-text{
+    color:blue;
+  }
+</style>
+<h1 class="blue-text pink-text">Hello World!</h1>
+<!-- <h1 class="pink-text blue-text">Hello World!</h1> -->
+```
