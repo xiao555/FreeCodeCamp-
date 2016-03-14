@@ -617,7 +617,7 @@ body {
     background-color: black;
     font-family: Monospace;
     color: green;
-  }
+  }               
   .pink-text {
     color: pink;
   }
@@ -628,3 +628,26 @@ body {
 <h1 class="blue-text pink-text">Hello World!</h1>
 <!-- <h1 class="pink-text blue-text">Hello World!</h1> -->
 ```
+
+### 52. Override Class Declarations by Styling ID Attributes
+
+用ID属性式样覆盖类声明(英语不好。。。)：
+
+```
+<style>
+
+#orange-text {
+    color:orange;
+  }
+</style>
+```
+
+### 53. Override Class Declarations with Inline Styles
+
+用内联样式覆盖类声明：
+
+```
+<h1 id="orange-text" class="pink-text blue-text" style="color:white">Hello World!</h1>
+```
+
+### 54. Override All Other Styles by using Important
