@@ -454,9 +454,11 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 为div元素设置背景色：
 
 ```
+<style>
 .gray-background{
     background-color:gray;
   }
+  </style>
 
 <div class="gray-background">
 ```
@@ -474,47 +476,56 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 使用ID属性设计元素：
 
 ```
+<style>
 #cat-photo-form {
     background-color:green;
   }
+  </style>
 ```
 ### 40. Adjusting the Padding of an Element
 
 设置内边距：
 
 ```
+<style>
 .green-box {
     background-color: green;
     padding: 20px;
   }
+  </style>
 ```
 ### 41. Adjust the Margin of an Element
 
 设置内边距：
 
 ```
+<style>
 .green-box {
     background-color: green;
     padding: 20px;
     margin: 20px;
   }
+  </style>
 ```
 ### 43. Add a Negative Margin to an Element
 
 设置负的外边距：
 
 ```
+<style>
 .green-box {
     background-color: green;
     padding: 20px;
     margin: -15px;
   }
+  </style>
 ```
 
 ### 44. Add Different Padding to Each Side of an Element
 为元素的每一边添加不同的内边距：
 
 ```
+<style>
 .green-box {
     background-color: green;
     padding-top: 40px;
@@ -522,6 +533,7 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
     padding-bottom: 20px;
     padding-left: 40px;
   }
+  </style>
 ```
 
 ### 45. Add Different Margins to Each Side of an Element
@@ -529,6 +541,7 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 为元素的每一边添加不同的外边距：
 
 ```
+<style>
 .green-box {
     background-color: green;
     margin-top: 40px;
@@ -536,6 +549,7 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
     margin-bottom: 20px;
     margin-left: 40px;
   }
+</style>
 ```
 
 ### 46. Use Clockwise Notation to Specify the Padding of an Element
@@ -543,10 +557,12 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 用顺时针符号来指定一个元素的内  边距：
 
 ```
+<style>
 .green-box {
     background-color: green;
     padding: 40px 20px 20px 40px;
   }
+</style>
 ```
 
 ### 47. Use Clockwise Notation to Specify the Margin of an Element
@@ -554,10 +570,12 @@ FreeCodeCamp 是一个基于 MEAN 架构的开源社区，它可以帮助人们�
 用顺时针符号来指定一个元素的外边距：
 
 ```
+<style>
 .green-box {
     background-color: green;
     margin: 40px 20px 20px 40px;
   }
+<style>
 ```
 
 ### 48. Style the HTML Body Element
@@ -651,3 +669,253 @@ body {
 ```
 
 ### 54. Override All Other Styles by using Important
+
+使用 important 覆盖其他所有样式
+
+```
+<style>
+.pink-text {
+    color: pink !important;
+  }
+</style>
+```
+
+### 55. Use Hex Code for Specific Colors
+
+为特殊的颜色使用十六进制代码
+
+```
+<style>
+body {
+    background-color: #000;
+  }
+</style>
+```
+### 56. Use Hex Code to Color Elements White
+
+使用十六进制的白色元素
+
+```
+<style>
+  body {
+    background-color: #fff;
+  }
+</style>
+```
+
+### 57. Use Hex Code to Color Elements Red
+
+使用十六进制的红色元素
+
+```
+<style>
+  body {
+    background-color: #FF0000;
+  }
+</style>
+```
+
+### 58. Use Hex Code to Color Elements Green
+
+使用十六进制的绿色元素
+
+```
+<style>
+  body {
+    background-color: #00FF00;
+  }
+</style>
+```
+
+### 59. Use Hex Code to Color Elements Blue
+
+使用十六进制的蓝色元素
+
+```
+<style>
+  body {
+    background-color: #0000FF;
+  }
+</style>
+```
+
+### 60. Use Hex Code to Mix Colors
+
+使用十六进制代码混合颜色
+
+```
+<style>
+  body {
+    background-color: #FFA500;
+  }
+</style>
+```
+
+### 61. Use Hex Code to Color Elements Gray
+
+使用十六进制的灰色元素
+
+```
+<style>
+  body {
+    background-color: #808080;
+  }
+</style>
+```
+
+### 62. Use Hex Code for Specific Shades of Gray
+
+使用十六进制代码为了特殊灰度的灰色
+
+```
+<style>
+  body {
+    background-color: #111111;
+  }
+</style>
+```
+
+### 63. Use Abbreviated Hex Code
+
+使用缩写十六进制代码
+
+```
+<style>
+  body {
+    background-color: #F00 ;
+  }
+</style>
+```
+
+### 64. Use RGB values to Color Elements
+
+使用RGB值颜色元素
+
+```
+<style>
+  body {
+    background-color: rgb(0, 0, 0);
+  }
+</style>
+```
+### 65. Use RGB to Color Elements White
+
+使用RGB颜色白色的元素
+
+```
+<style>
+  body {
+    background-color:  rgb(255, 255, 255);
+  }
+</style>
+```
+
+###  66. Use RGB to Color Elements Red
+
+使用RGB颜色红色的元素
+
+```
+<style>
+  body {
+    background-color: rgb(255, 0, 0);
+  }
+</style>
+```
+
+### 67. Use RGB to Color Elements Green
+
+使用RGB 颜色绿色的元素
+
+```
+<style>
+  body {
+    background-color: rgb(0, 255, 0);
+  }
+</style>
+```
+
+### 68. Use RGB to Color Elements Blue
+
+使用RGB 颜色蓝色的元素
+
+```
+<style>
+  body {
+    background-color: rgb(0, 0, 255);
+  }
+</style>
+```
+### 69. Use RGB to Mix Colors
+
+使用RGB 颜色混合的元素
+
+```
+<style>
+  body {
+    background-color: rgb(255, 165, 0);
+  }
+</style>
+```
+
+## Basic JavaScript
+
+### 1. Comment your JavaScript Code
+
+注释你的Javascript代码
+
+```
+<Script>
+// This is an in-line comment.
+/* This is a 
+   multi-line comment */
+   </Script>
+
+```
+
+### 2. Declare JavaScript Variables
+
+声明JavaScript变量
+
+```
+<Script>
+// Define myName below this line
+
+var myName;
+</Script>
+```
+
+### 3. Storing Values with the Equal Operator
+
+用=存储值
+
+```
+<Script>
+// Only change code below this line
+a = 7;
+b = a;
+</Script>
+```
+
+### 4. Initializing Variables with the Equal Operator
+
+用= 初始化变量
+```
+<script type="text/javascript">
+// Only change code below this line
+var a = 9;
+</script>
+```
+### 5. Understanding Uninitialized Variables
+
+了解未初始化变量
+
+```
+<script type="text/javascript">
+// Initialize these three variables
+var a = 5;
+var b = 10;
+var c = "I am a";
+</script>
+```
+
+### 6. 
